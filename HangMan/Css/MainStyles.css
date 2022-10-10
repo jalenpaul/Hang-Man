@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+article {
+    background-image: url("/Res/JPGs/pixel_alley.jpeg");
+    background-position: center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "pixgamer";
+    top: 400px;
+    z-index: 1;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+h2 {
+    top: 400px;
+    z-index: 1;
+    font-family: "suboleya";
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+button {
+    top: 400px;
+    font-family: "suboleya";
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
+    border-radius: 8px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'suboleya';
+    src: url("/Res/Fonts/suboleya.ttf");
+}
+
+@font-face {
+    font-family: 'pixgamer';
+    src: url("/Res/Fonts/pixgamer.ttf");
+}
